@@ -95,9 +95,11 @@ characters = [
     eye_color: "red",
   },
 ];
+let u = characters.find((e )=> e.eye_color==="blue").name;
+console.log(u);
 
-console.log(characters[1].name);
-console.log(characters[0].gender);
+let f = characters.find((e )=> e.mass>50).gender;
+console.log(f);
 
 let x = characters.filter(e => e.height < 200);
 console.log(x);
